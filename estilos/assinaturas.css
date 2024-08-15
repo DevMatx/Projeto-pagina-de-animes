@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navegacao {
+    text-align: center;
+    padding: 1%;
+    border-bottom: 2px solid red;
+}
+
+.home {
+    margin: 2%;
+    text-decoration: none;
+    color: var(--branco-principal);
+
+}
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container__titulo {
+    margin: 20%;
+    border: 2px solid var(--branco-principal);
+    border-radius: 8px;
+    text-align: center;
+    padding:2% 6% 6% 6%;
+    color: black;
+    background-color: var(--branco-principal);;
+}
+
+.titulo {
+    font-size: 1.4rem;
+}
+
+.paragrafo {
+    padding-top: 1em;
+    color: gray;
+    text-align: left;
+}
+
+.container_botao {
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 13em;
+    padding: 1em;
+    color: var(--branco-principal);
+}
